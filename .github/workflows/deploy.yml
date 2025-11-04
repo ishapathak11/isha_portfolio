@@ -43,8 +43,16 @@ jobs:
         with:
           path: './dist'
       
-      - name: List dist contents
-        run: ls -la dist/
+      - name: Verify build output
+        run: |
+          echo "Checking dist/index.html contents:"
+          cat dist/index.html
+          echo ""
+          echo "Listing dist files:"
+          ls -la dist/
+          echo ""
+          echo "Checking if assets folder exists:"
+          ls -la dist/assets/ || echo "Assets folder not found!"
 
   deploy:
     environment:
