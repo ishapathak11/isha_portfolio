@@ -2,7 +2,29 @@
 
 A modern portfolio website built with React, TypeScript, and Vite.
 
-## 🚀 Deployment Guide
+## ⚠️ TROUBLESHOOTING: If you see blank page or /src/main.tsx error
+
+**Problem**: Your site shows blank page and browser console shows error loading `/src/main.tsx`
+
+**Solution**: GitHub Pages is serving source files instead of built files. You MUST configure it correctly:
+
+1. Go to: https://github.com/ishapathak11/isha_portfolio
+2. Click **"Settings"** tab (at the top, next to "Code", "Issues", etc.)
+3. In the LEFT sidebar, scroll down and click **"Pages"**
+4. Find section **"Build and deployment"**
+5. Under **"Source"**, click the dropdown
+6. **IMPORTANT**: Select **"GitHub Actions"** (NOT "Deploy from a branch")
+7. If you don't see "GitHub Actions" option:
+   - Make sure you have successfully run the workflow at least once (check Actions tab)
+   - Try refreshing the Settings page
+   - The option appears after your first successful workflow run
+8. After selecting "GitHub Actions", wait 2-3 minutes
+9. Clear browser cache completely (`Ctrl + Shift + Delete` → Clear all cached files)
+10. Visit site in Incognito window: https://ishapathak11.github.io/isha_portfolio/
+
+**Why this happens**: If "Source" is set to "Deploy from a branch", GitHub Pages serves files directly from your repository root (including the source `index.html` with `/src/main.tsx`). Setting it to "GitHub Actions" makes it serve the built files from the `dist/` folder created by the workflow.
+
+## �� Deployment Guide
 
 ### Option 1: Deploy to GitHub Pages (Free)
 
