@@ -1,4 +1,4 @@
-import { FaCode, FaDatabase, FaCloud, FaTools } from 'react-icons/fa'
+import { FaCode, FaDatabase, FaCloud } from 'react-icons/fa'
 import './Skills.css'
 
 interface SkillCategory {

@@ -1,4 +1,4 @@
-import { FaCode, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaCode } from 'react-icons/fa'
 import './Projects.css'
 
 interface Project {
