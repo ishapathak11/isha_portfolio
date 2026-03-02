@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
             <div className="contact-social">
               <a 
-                href="https://www.linkedin.com/in/ishapathak11/" 
+                href="https://www.linkedin.com/in/ishapathak1/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
