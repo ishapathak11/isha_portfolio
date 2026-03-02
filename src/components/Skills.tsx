@@ -10,24 +10,24 @@ interface SkillCategory {
 const Skills = () => {
   const skillCategories: SkillCategory[] = [
     {
-      title: 'Programming Languages',
+      title: 'Programming & Tools',
       icon: <FaCode />,
-      skills: ['Python', 'C', 'C++', 'HTML5', 'CSS3', 'JavaScript (ES6+)', 'SQL']
-    },
-    {
-      title: 'Databases & Storage',
-      icon: <FaDatabase />,
-      skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'AWS S3']
+      skills: ['Python', 'C', 'C++', 'HTML5', 'CSS3', 'JavaScript (ES6+)']
     },
     {
       title: 'Frameworks & Libraries',
       icon: <FaCode />,
-      skills: ['ReactJS', 'RESTful APIs', 'GraphQL', 'Flask', 'Django', 'Redux', 'Node.js']
+      skills: ['RESTful APIs', 'GraphQL', 'Flask', 'Django',  'FastAPI', 'Pandas', 'NumPy']
     },
     {
-      title: 'Cloud & DevOps',
+      title: 'Databases & Cloud',
       icon: <FaCloud />,
-      skills: ['AWS', 'EC2', 'RDS', 'S3', 'Git', 'Agile/Scrum', 'TDD', 'Performance Optimization']
+      skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'AWS (EC2, S3, RDS)', 'SQL', 'NoSQL', 'Oracle']
+    },
+    {
+      title: 'Tools & Methodologies',
+      icon: <FaCloud />,
+      skills: ['Agile/Scrum', 'Test-Driven Development (TDD)', 'Code Review', 'Performance Optimization', 'Postman', 'Jira', 'Docker', 'Git']
     }
   ]
 

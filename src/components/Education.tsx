@@ -8,6 +8,7 @@ interface EducationItem {
   period: string
   gpa: string
   achievements?: string[]
+  coursework?: string[]
 }
 
 const Education = () => {
@@ -18,7 +19,8 @@ const Education = () => {
       location: 'Texas, USA',
       period: 'Aug 2024 - Present',
       gpa: 'GPA: 3.5',
-      achievements: ['Graduate Teaching Assistantship Award']
+      achievements: ['Graduate Teaching Assistantship Award'],
+      coursework: ['Design And Analysis of Algorithm', 'Database Management System', 'Artificial Intelligence', 'Machine Learning']
     },
     {
       degree: 'Bachelor Of Engineering, Computer Engineering',

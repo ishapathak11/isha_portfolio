@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'EmotiveChat: AI-Powered Sentiment-Aware Conversational Agent',
       affiliation: 'Texas A&M University, Corpus Christi',
-      description: 'Built an intelligent chatbot using NLP/transformer models (BERT, ROBERTa, GPT-3.5) and ML algorithms (SVM, Random Forest, XGBoost) achieving 89% accuracy and F1-score of 0.87 across 10,000+ conversations.',
+      description: 'Built intelligent chatbot using NLP/transformer models (BERT, RoBERTa, GPT-3.5) and ML algorithms (SVM, Random Forest, XGBoost) achieving 89% accuracy and F1-score of 0.87 across 10,000+ conversations',
       technologies: ['Python', 'BERT', 'RoBERTa', 'GPT-3.5', 'SVM', 'Random Forest', 'XGBoost', 'NLP', 'ML'],
       metrics: ['89% Accuracy', 'F1-score: 0.87', '10,000+ Conversations']
     },
